@@ -1,0 +1,32 @@
+{
+  "name": "macaca-multi-task-sample",
+  "version": "1.0.0",
+  "description": "macaca multi task sample",
+  "keywords": [
+    "macaca",
+    "sample"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/macaca-multi-task-sample.git"
+  },
+  "dependencies": {
+    "macaca-utils": "~0.1.8"
+  },
+  "devDependencies": {
+    "jshint": "*",
+    "macaca-cli": "^1.0.15",
+    "pre-commit": "1.1.1",
+    "webdriver-client": "~1.0.0",
+    "xml2map": "^1.0.2"
+  },
+  "scripts": {
+    "test": "make test-pc",
+    "jshint": "make jshint"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "homepage": "https://github.com/xudafeng/macaca-multi-task-sample",
+  "license": "MIT"
+}
