@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/xudafeng/macaca-multi-task-sample.git"
+    "url": "git://github.com/macaca-sample/macaca-multi-task-sample.git"
   },
   "dependencies": {
     "macaca-utils": "~0.1.8"
@@ -27,6 +27,6 @@
   "pre-commit": [
     "jshint"
   ],
-  "homepage": "https://github.com/xudafeng/macaca-multi-task-sample",
+  "homepage": "https://github.com/macaca-sample/macaca-multi-task-sample",
   "license": "MIT"
 }
